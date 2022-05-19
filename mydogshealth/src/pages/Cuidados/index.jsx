@@ -10,12 +10,7 @@ const Cuidados = () => {
         <HeaderDashBoard />
       </Box>
 
-      <Box display="flex" flexDir="row">
-        <Box marginRight="2%">
-          <Box>
-            <MenuDashboard />
-          </Box>
-        </Box>
+      <Box display="flex" flexDir="row" width="80%" margin="0 auto">
         <TableDog />
       </Box>
     </Flex>
